@@ -12,6 +12,5 @@ print(numbers)
 x = int(input('first position = '))
 y = int(input('second position = '))
 
-for i in range(len(numbers)):
-    mult = numbers[x-1]*numbers[y-1]
+mult = numbers[x-1]*numbers[y-1]
 print(f'Mult of elements: {numbers[x-1]} * {numbers[y-1]} =', mult)
